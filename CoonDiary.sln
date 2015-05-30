@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoonDiary", "CoonDiary\CoonDiary.csproj", "{FF7FF026-3EE2-432D-9B78-9ABEEC24C2E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoonDiary.Tests", "CoonDiary.Tests\CoonDiary.Tests.csproj", "{448F9612-C6D1-4661-A96B-1B72FB63C8EF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{DDFE0865-9579-489E-AFF2-D41A0B7F7DD4}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureWebsitePublishModule.psm1 = PublishScripts\AzureWebsitePublishModule.psm1
+		PublishScripts\Publish-WebApplicationWebsite.ps1 = PublishScripts\Publish-WebApplicationWebsite.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{0FB7D4F4-A651-4F98-B2BA-734DF6B47490}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\CoonDiary-WAWS-dev.json = PublishScripts\Configurations\CoonDiary-WAWS-dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF7FF026-3EE2-432D-9B78-9ABEEC24C2E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF7FF026-3EE2-432D-9B78-9ABEEC24C2E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF7FF026-3EE2-432D-9B78-9ABEEC24C2E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF7FF026-3EE2-432D-9B78-9ABEEC24C2E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{448F9612-C6D1-4661-A96B-1B72FB63C8EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{448F9612-C6D1-4661-A96B-1B72FB63C8EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{448F9612-C6D1-4661-A96B-1B72FB63C8EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{448F9612-C6D1-4661-A96B-1B72FB63C8EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0FB7D4F4-A651-4F98-B2BA-734DF6B47490} = {DDFE0865-9579-489E-AFF2-D41A0B7F7DD4}
+	EndGlobalSection
+EndGlobal

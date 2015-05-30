@@ -1,0 +1,21 @@
+{
+    "environmentSettings": {
+        "webSite": {
+            "name": "CoonDiary4652",
+            "location": "East US 2"
+        },
+        "databases": [
+            {
+                "connectionStringName": "DefaultConnection",
+                "databaseName": "CoonDiary4652_db",
+                "serverName": "fyjoriw4u9",
+                "user": "coon_sql_admin",
+                "password": "",
+                "edition": "",
+                "size": "",
+                "collation": "",
+                "location": "East US 2"
+            }
+        ]
+    }
+}
