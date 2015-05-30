@@ -18,6 +18,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configura
 		PublishScripts\Configurations\CoonDiary-WAWS-dev.json = PublishScripts\Configurations\CoonDiary-WAWS-dev.json
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoonDiary01", "CoonDiary01\CoonDiary01.csproj", "{830DEDD4-0866-48CF-88C6-E1819AAA9246}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,6 +34,10 @@ Global
 		{448F9612-C6D1-4661-A96B-1B72FB63C8EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{448F9612-C6D1-4661-A96B-1B72FB63C8EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{448F9612-C6D1-4661-A96B-1B72FB63C8EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{830DEDD4-0866-48CF-88C6-E1819AAA9246}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{830DEDD4-0866-48CF-88C6-E1819AAA9246}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{830DEDD4-0866-48CF-88C6-E1819AAA9246}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{830DEDD4-0866-48CF-88C6-E1819AAA9246}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
